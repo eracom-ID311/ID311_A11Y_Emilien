@@ -1,0 +1,9 @@
+.menu {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+nav {
+    list-style-type: none;
+    display: inline-block;
+}
