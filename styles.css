@@ -1,9 +1,8 @@
-.menu {
-    margin-left: 40px;
-    margin-top: 40px;
+body {
+  font-size: 18px;
 }
 
-nav {
-    list-style-type: none;
-    display: inline-block;
+* {
+  margin: 0;
+  padding: 0;
 }
