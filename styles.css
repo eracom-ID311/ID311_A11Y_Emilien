@@ -1,22 +1,51 @@
 body {
   font-size: 18px;
   font-family: sans-serif;
-  color: #444;
+  color: black;
 }
+
+
 
 header {
   justify-content: space-around;
   align-items: center;
   list-style: none ;
   padding: 24px 24px 24px 24px;
+  display: flex;
 }
 
-button {
+header img {
+  width: 128px;
+}
+
+.header_element {
+color: black;
+text-decoration: none;
+justify-content: space-between;
+margin: 0 30px;
+}
+
+.header_element:first-of-type {
+  margin-left: 0;
+  color: #1b8036;
+}
+
+
+.submenu {
+  background-image: url(images/Vector.png);
+  background-position: right;
+  background-repeat: no-repeat ;
+  padding-right: 30px;
+}
+
+header button {
   border: 0;
-  border-radius: 10px;
+  border-radius: 30px;
   background: #1b8036;
   color: white;
-  font-size: 16px;
+  font-size: 19px;
+  height: 52px;
+  width: 151px;
 }
 
 
@@ -30,8 +59,8 @@ button {
 
 }
 
-h1 {
-  font-size: 70px;
+.intro_text h1 {
+  font-size: 74px;
   color: #1b8036;
   margin-right: 120px;
   margin-bottom: 25px;
@@ -43,4 +72,19 @@ p {
 
 .section_intro {
   height: 100vh;
+}
+
+.intro_text p {
+  font-size: 25px;
+}
+
+.intro_text button {
+  font-size: 20px;
+  border-radius: 30px;
+  background: #1b8036;
+  color: white;
+  height: 60px;
+  width: 162px;
+  border: 0;
+
 }
