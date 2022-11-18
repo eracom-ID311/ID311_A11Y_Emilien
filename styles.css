@@ -1,8 +1,137 @@
 body {
   font-size: 18px;
+  line-height: 1.5;
+  font-family: sans-serif;
+  color: #444;
 }
 
 * {
   margin: 0;
   padding: 0;
+}
+
+header {
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 24px 24px 24px 24px;
+}
+
+.header_elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.header_element {
+  list-style: none;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+
+button {
+  padding: 12.5px, 30px;
+  border: 0;
+  border-radius: 100px;
+  background: #1b8036;
+  color: white;
+  font-size: 16px;
+}
+
+.intro button {
+margin: 45px ;
+}
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+
+}
+
+h1 {
+  font-size: 70px;
+  line-height: 100px;
+  color: #1b8036;
+  margin-right: 120px;
+  margin-bottom: 25px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.section_intro {
+  height: 100vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 200px 0px;
+  padding: 100px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-auto-flow: row;
+  grid-template-areas: "grid_first_image grid_first_text";
+}
+
+.grid_first_image {
+  grid-area: grid_first_image;
+}
+
+.grid p {
+font-weight: 700;
+font-size: 30px;
+margin-bottom: 25px;
+}
+
+.grid li {
+  color: #c4c4c4;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.grid p + p {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
 }
