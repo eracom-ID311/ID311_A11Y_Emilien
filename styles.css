@@ -10,7 +10,7 @@ header {
   justify-content: space-around;
   align-items: center;
   list-style: none ;
-  padding: 24px 24px 24px 24px;
+  padding: 24px 24px 24px 2px;
   display: flex;
 }
 
@@ -46,6 +46,7 @@ header button {
   font-size: 19px;
   height: 52px;
   width: 151px;
+  box-shadow: 5px 5px 5px #1b8036;
 }
 
 
@@ -55,7 +56,7 @@ header button {
   align-items: center;
   position: absolute;
   top: 20%;
-  left: 20%;
+  left: 10%;
 
 }
 
@@ -66,12 +67,16 @@ header button {
   margin-bottom: 25px;
 }
 
+.intro_image {
+  margin-left: 150px;
+}
+
 p {
   font-size: 20px;
 }
 
 .section_intro {
-  height: 100vh;
+  height: 90vh;
 }
 
 .intro_text p {
@@ -87,4 +92,85 @@ p {
   width: 162px;
   border: 0;
 
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 200px 10px;
+  padding-left: 150px;
+  padding-right: 150px;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid li {
+color: #c4c4c4;
+text-transform: uppercase;
+font-size:14px;
+font-weight:700;
+margin-bottom:25px;
+}
+
+.grid h1 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.grid p {
+  font-size: 25px;
+}
+
+
+.grid2 h3 {
+  color: #c4c4c4;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.grid2 h4 {
+  color: #c4c4c4;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.products {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  color: #1b8036;
+}
+
+.products p {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.grid_third_image {
+  margin-left: 200px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-bottom: 100px;
+}
+
+.grid2 h1 {
+  font-size: 38px;
+}
+
+.grid_hr {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-right: 150px;
+  align-items: center;
+  justify-content: center;
 }
